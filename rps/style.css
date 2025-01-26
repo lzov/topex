@@ -1,0 +1,16 @@
+* {
+    background-color: antiquewhite;
+
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-decoration: wavy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
