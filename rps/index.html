@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPS</title>
-    <script src="juego.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Piedra Papel o Tijera!</h1>
+<html lang="es">
 
-    <h2>Divertite</h2>
-    <p>Nota: esto se juega desde la consola.</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijeras</title>
+  <!-- Enlazar el archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Piedra, Papel o Tijeras</h1>
+
+  <!-- Botón de inicio -->
+  <button id="inicio">Inicio</button>
+
+  <!-- Botones de elección (ocultos inicialmente) -->
+  <div id="eleccion-botones">
+    <button id="piedra">Piedra</button>
+    <button id="papel">Papel</button>
+    <button id="tijera">Tijera</button>
+  </div>
+
+  <!-- Área para mostrar resultados -->
+  <p id="resultado"></p>
+
+  <!-- Enlazar el archivo JavaScript -->
+  <script src="juego.js"></script>
 </body>
+
 </html>
